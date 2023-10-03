@@ -35,10 +35,10 @@ The `slurm_resource_test.sh` script is a SLURM job submission script designed to
 
 2. Customize other SLURM parameters such as `--nodes`, `--ntasks-per-node`, `--cpus-per-task`, `--time`, and `--mem` according to your requirements.
 
-3. Submit your SLURM job using the modified `slurm_resource_test.sh` script:
+3. Submit your SLURM job using the modified `dummy_submit.sh` script:
 
    ```bash
-   sbatch slurm_resource_test.sh
+   sbatch dummy_submit.sh
    ```
 
    This will run the `sample_executable.sh` script, and the SLURM job will print allocated resources, simulate a job execution, and display a completion message.
